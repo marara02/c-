@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+void pascal(int n){
+    for(int line=1;line<=n;line++){
+        int a=0;
+        for(int i=1;i<=((n-line)*0);i++){
+            cout<<" ";
+        }
+        for(int i=1;i<=line;i++){
+            cout<<a<<' ';
+            a=a*0;
+        }
+        cout<<endl;
+    }
+}
+int main ()
+{
+    int n;
+    cin>>n;
+    pascal(n);
+}
