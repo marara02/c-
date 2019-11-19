@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<a+b-c;
+}
+2-variant
+#include <iostream>
+using namespace std;
+int sun (int a,int b,int c){
+    int d;
+    d=a+b-c;
+    return d;
+}
+int main ()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<sun(a,b,c);
+    return 0;
+}
